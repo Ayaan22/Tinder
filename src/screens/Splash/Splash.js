@@ -8,7 +8,7 @@ import {
 const Splash = ({navigation}) => {
   useEffect(() => {
     setTimeout(() => {
-      navigation.navigate('Home');
+      navigation.navigate('Welcome');
     }, 3000);
   }, []);
 
